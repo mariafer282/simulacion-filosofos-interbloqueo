@@ -1,0 +1,196 @@
+{
+ "base": [
+  {
+   "politica": "ingenua",
+   "n": 5,
+   "p_deadlock": 57.99999999999999,
+   "ic95": 5.585140284719802,
+   "t_deadlock": 169.18608982375798,
+   "rendimiento": 0.21835333333333332,
+   "espera": 7.7806712139029,
+   "min_comidas": 20.346666666666668
+  },
+  {
+   "politica": "jerarquia",
+   "n": 5,
+   "p_deadlock": 0.0,
+   "ic95": 0.0,
+   "t_deadlock": null,
+   "rendimiento": 0.44767333333333337,
+   "espera": 6.083607650662538,
+   "min_comidas": 34.013333333333335
+  },
+  {
+   "politica": "camarero",
+   "n": 5,
+   "p_deadlock": 0.0,
+   "ic95": 0.0,
+   "t_deadlock": null,
+   "rendimiento": 0.35677333333333333,
+   "espera": 8.86952223640803,
+   "min_comidas": 33.52
+  }
+ ],
+ "pausa": [
+  [
+   0.1,
+   {
+    "politica": "ingenua",
+    "n": 5,
+    "p_deadlock": 0.0,
+    "ic95": 0.0,
+    "t_deadlock": null,
+    "rendimiento": 0.38953333333333334,
+    "espera": 7.737725085499114,
+    "min_comidas": 36.28
+   }
+  ],
+  [
+   0.5,
+   {
+    "politica": "ingenua",
+    "n": 5,
+    "p_deadlock": 9.333333333333334,
+    "ic95": 3.291831956468864,
+    "t_deadlock": 215.16896067408382,
+    "rendimiento": 0.35147333333333336,
+    "espera": 8.189665765314022,
+    "min_comidas": 32.9
+   }
+  ],
+  [
+   1,
+   {
+    "politica": "ingenua",
+    "n": 5,
+    "p_deadlock": 57.99999999999999,
+    "ic95": 5.585140284719802,
+    "t_deadlock": 169.18608982375798,
+    "rendimiento": 0.21835333333333332,
+    "espera": 7.7806712139029,
+    "min_comidas": 20.346666666666668
+   }
+  ],
+  [
+   2,
+   {
+    "politica": "ingenua",
+    "n": 5,
+    "p_deadlock": 99.0,
+    "ic95": 1.1259342787214541,
+    "t_deadlock": 83.3686931073839,
+    "rendimiento": 0.054240000000000003,
+    "espera": 6.158592490599637,
+    "min_comidas": 4.766666666666667
+   }
+  ],
+  [
+   4,
+   {
+    "politica": "ingenua",
+    "n": 5,
+    "p_deadlock": 100.0,
+    "ic95": 0.0,
+    "t_deadlock": 27.45783697310058,
+    "rendimiento": 0.009893333333333332,
+    "espera": 3.6511097794049405,
+    "min_comidas": 0.7066666666666667
+   }
+  ]
+ ],
+ "n": [
+  [
+   3,
+   {
+    "politica": "ingenua",
+    "n": 3,
+    "p_deadlock": 100.0,
+    "ic95": 0.0,
+    "t_deadlock": 42.65963330156319,
+    "rendimiento": 0.02376,
+    "espera": 3.1272900021829773,
+    "min_comidas": 3.4366666666666665
+   }
+  ],
+  [
+   5,
+   {
+    "politica": "ingenua",
+    "n": 5,
+    "p_deadlock": 57.99999999999999,
+    "ic95": 5.585140284719802,
+    "t_deadlock": 169.18608982375798,
+    "rendimiento": 0.21835333333333332,
+    "espera": 7.7806712139029,
+    "min_comidas": 20.346666666666668
+   }
+  ],
+  [
+   8,
+   {
+    "politica": "ingenua",
+    "n": 8,
+    "p_deadlock": 5.0,
+    "ic95": 2.4662792488551117,
+    "t_deadlock": 186.1363904074208,
+    "rendimiento": 0.41068,
+    "espera": 13.442806484083757,
+    "min_comidas": 23.386666666666667
+   }
+  ],
+  [
+   12,
+   {
+    "politica": "ingenua",
+    "n": 12,
+    "p_deadlock": 0.33333333333333337,
+    "ic95": 0.6522435355215332,
+    "t_deadlock": 2.2569713799093143,
+    "rendimiento": 0.5336799999999999,
+    "espera": 17.248020993518622,
+    "min_comidas": 19.56
+   }
+  ]
+ ],
+ "n_pol": [
+  [
+   "ingenua",
+   {
+    "politica": "ingenua",
+    "n": 12,
+    "p_deadlock": 0.33333333333333337,
+    "ic95": 0.6522435355215332,
+    "t_deadlock": 2.2569713799093143,
+    "rendimiento": 0.5336799999999999,
+    "espera": 17.248020993518622,
+    "min_comidas": 19.56
+   }
+  ],
+  [
+   "jerarquia",
+   {
+    "politica": "jerarquia",
+    "n": 12,
+    "p_deadlock": 0.0,
+    "ic95": 0.0,
+    "t_deadlock": null,
+    "rendimiento": 0.8791666666666667,
+    "espera": 8.44939935434372,
+    "min_comidas": 25.496666666666666
+   }
+  ],
+  [
+   "camarero",
+   {
+    "politica": "camarero",
+    "n": 12,
+    "p_deadlock": 0.0,
+    "ic95": 0.0,
+    "t_deadlock": null,
+    "rendimiento": 0.5491,
+    "espera": 16.70877941919212,
+    "min_comidas": 20.04
+   }
+  ]
+ ]
+}
